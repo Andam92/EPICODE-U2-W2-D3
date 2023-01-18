@@ -1,0 +1,11 @@
+button {
+  padding: $button-spacing;
+  margin: $button-margin;
+  background-color: $primary-color;
+  border-radius: $rounded;
+}
+
+button:hover {
+  transform: rotate(20deg);
+  transition: all 0.3s;
+}

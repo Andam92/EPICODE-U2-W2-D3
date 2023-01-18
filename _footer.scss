@@ -1,0 +1,19 @@
+footer {
+  color: white;
+  background-color: $serious-color;
+  display: flex;
+  flex-direction: column;
+  .footer_1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer_2 {
+    text-align: center;
+    background-color: $less-serious-color;
+    font-size: $font-size-secondary;
+  }
+  i {
+    margin: $button-margin;
+    font-size: 16px;
+  }
+}

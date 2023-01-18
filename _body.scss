@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: $main-font;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 30%;
+    margin: $button-margin;
+    align-self: center;
+    border-radius: $rounded;
+    border: 2px solid $secondary-color;
+  }
+  .prenota {
+    margin: $button-margin;
+    padding: $button-spacing;
+    width: 10%;
+    align-self: center;
+    border-radius: $rounded;
+  }
+}
+
+.img:focus {
+  transform: rotate(20deg);
+  transition: all 0.5s;
+}
+
+.prenota:hover {
+  background-color: $secondary-color;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}

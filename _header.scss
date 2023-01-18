@@ -1,0 +1,18 @@
+header {
+  background-color: $secondary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  input,
+  button {
+    margin-right: 1.5rem;
+  }
+}
